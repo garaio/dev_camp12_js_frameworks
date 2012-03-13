@@ -42,14 +42,20 @@
         .row
           .span3
             .well.sidebar-nav
-              %h3 Sidebar
+              %h3 Sidebar Links
               %ul.nav.nav-list
-                %li.nav-header Sidebar
                 %li= link_to "Link 1"
                 %li= link_to "Link 2"
                 %li= link_to "Link 3"
-          .span9
+          .span6
             = yield
+          .span3
+            .well.sidebar-nav
+              %h3 Sidebar Rechts
+              %ul.nav.nav-list
+                %li= link_to "Link 1"
+                %li= link_to "Link 2"
+                %li= link_to "Link 3"
           .span1 &nbsp;
 
 
