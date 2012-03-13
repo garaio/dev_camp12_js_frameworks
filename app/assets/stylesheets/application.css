@@ -12,3 +12,17 @@
  *= require_tree .
  *= require bootstrap
 */
+
+
+#main-content {
+  background-color: white;
+  padding: 5px;
+  color: black;
+  height: 600px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+}

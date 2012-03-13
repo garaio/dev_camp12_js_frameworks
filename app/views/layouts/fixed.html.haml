@@ -28,33 +28,32 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.brand{:href => "#"}ContextNavigation
+          %a.brand{:href => "#"}
+            Main Menu
           .container.nav-collapse
             %ul.nav
-              %li= link_to "Link 1", "/path1"
-              %li= link_to "Link 2", "/path2"
-              %li= link_to "Link 3", "/path3"
+              %li= link_to "Link 1"
+              %li= link_to "Link 2"
+              %li= link_to "Link 3"
 
     .container
 
       .content
         .row
-          .span9
-            = yield
-          .span1 &nbsp;
           .span3
             .well.sidebar-nav
               %h3 Sidebar
               %ul.nav.nav-list
                 %li.nav-header Sidebar
-                %li= link_to "Link 1", "/path1"
-                %li= link_to "Link 2", "/path2"
-                %li= link_to "Link 3", "/path3"
-    
+                %li= link_to "Link 1"
+                %li= link_to "Link 2"
+                %li= link_to "Link 3"
+          .span9
+            = yield
+          .span1 &nbsp;
+
+
       %footer
         %p &copy; Company 2012
-    /
-      Le javascript
-      \==================================================
-    / Placed at the end of the document so the pages load faster
+
     = javascript_include_tag "application"
