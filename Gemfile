@@ -8,6 +8,7 @@ gem 'rails', '3.2.2'
 gem 'sqlite3'
 gem 'haml-rails'
 gem 'twitter-bootstrap-rails'
+gem 'ember-rails', '~> 0.2.4'
 
 
 # Gems used only for assets and not required
